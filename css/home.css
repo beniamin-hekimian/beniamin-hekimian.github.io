@@ -1,0 +1,89 @@
+/* infinite-scroll.css */
+.wrapper {
+width: 90%;
+max-width: 1600px;
+margin-inline: auto;
+position: relative;
+height: 100px;
+overflow: hidden;
+mask-image: linear-gradient(
+    to right,
+    rgba(0,0,0,0),
+    rgba(0,0,0,1) 20%,
+    rgba(0,0,0,1) 80%,
+    rgba(0,0,0,0)
+);
+}
+.skill {
+    width: 100px; /* this should be px (can't be %) */
+    height: 100%;
+    /* background-color: red; */
+    border-radius: 6px;
+    position: absolute;
+    left: max(calc(100px * 8), 100%);
+    animation-name: scrollleft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes scrollleft {
+    /* left: <-item width> */
+    to{
+        left: -100px;
+    }
+}
+/* negative delay values defines the starting position of the element */
+/* duration * delay * -1 */
+#skill-1{
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+}
+#skill-2{
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+}
+#skill-3{
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+}
+#skill-4{
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+}
+#skill-5{
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+}
+#skill-6{
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+}
+#skill-7{
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+#skill-8{
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+}
+
+
+
+/* type-writer.css */
+.typewriter{
+    position: relative;
+}
+.typewriter:before{
+    content:"";
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    background-color: white;
+    border-left: 4px solid #00cd78;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
