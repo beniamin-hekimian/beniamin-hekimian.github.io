@@ -45,6 +45,12 @@
 .event:nth-child(8){
     animation-delay: 7s;
 }
+.event:nth-child(9){
+    animation-delay: 8s;
+}
+.event:nth-child(10){
+    animation-delay: 9s;
+}
 .text-box{
     padding: 20px 30px;
     background: #edebeb;
@@ -125,7 +131,7 @@
     /* filter: drop-shadow(0 0 5px black); */
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     .timeline{
         margin: 50px auto;
     }
