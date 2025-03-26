@@ -1,40 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- SEO meta tags -->
     <meta charset="UTF-8">
-    <meta name="title" content="Beniamin Hekimian | Web Developer, Photographer, Video Editor">
-    <meta name="description" content="Explore Beniamin Hekimian's portfolio showcasing web development, photography, and video editing projects. Skilled in React, Bootstrap, and creating responsive websites.">
-    <meta name="author" content="Beniamin Hekimian">
-    <meta name="robots" content="index, follow">
-    <meta name="language" content="English">
+    <meta name="title" content="Beniamin Hekimian - Software Engineer">
+    <meta name="description" content="Explore Beniamin Hekimian's portfolio showcasing web development projects. Skilled in React, Bootstrap, and creating responsive websites.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="copyright" content="© 2024 Beniamin Hekimian. All rights reserved.">
-    <meta property="og:title" content="Beniamin Hekimian | Web Developer, Photographer, Video Editor">
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Beniamin Hekimian - Software Engineer">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://beniamin-hekimian.github.io">
-    <meta property="og:image" content="https://beniamin-hekimian.github.io/src/images/screenshot.jpeg">
-    <meta property="og:description" content="Explore Beniamin Hekimian's portfolio showcasing web development, photography, and video editing projects. Skilled in React, Bootstrap, and creating responsive websites.">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:site_name" content="Beniamin Hekimian Portfolio">
+    <meta property="og:image" content="https://beniamin-hekimian.github.io/images/mockup.png">
 
-    <title>Beniamin Hekimian | Web Developer, Photographer, Video Editor</title>
+    <title>Beniamin Hekimian - Software Engineer</title>
 
-    <!-- home.css -->
-    <link rel="stylesheet" href="css/home.css">
-    <!-- style.css + bootstrap -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- favicon shortcut -->
     <link rel="icon" href="images/favicon.png">
-    <!-- bootstrap icons -->
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- aos.js Library -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
-<body class="d-flex flex-column min-vh-100">
-    <!-- navigation bar -->
+<body>
+    <!-- navbar -->
     <nav class="navbar p-0 navbar-expand-lg bg-body-tertiary rounded container-fluid d-lg-flex">
-        <a class="navbar-brand col-lg-3 me-0 mx-2" href="index.html">
-            <h2><span class="green">P</span>ortfolio<span class="green">.</span></h2>
+        <a class="navbar-brand col-3 me-0 mx-2" href="index.html">
+            <img class="w-25" src="images/favicon.png" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11"
             aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +36,7 @@
                 <li class="nav-item"><a class="nav-link hover-green m-2" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link hover-green m-2" href="html/about.html">About</a></li>
                 <li class="nav-item"><a class="nav-link hover-green m-2" href="html/skills.html">Skills</a></li>
-                <li class="nav-item"><a class="nav-link hover-green m-2" href="html/portfolio.html">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link hover-green m-2" href="html/projects.html">Projects</a></li>
             </ul>
             <div class="d-lg-flex col-lg-3 justify-content-lg-end">
                 <a class="btn btn-green m-2" href="html/contact.html">Contact Us</a>
@@ -60,19 +51,19 @@
                 <h1><i class="bi bi-stars"></i><span class="green">Beniamin</span> Hekimian</h1>
                 <h2>I'm a <span class="typewriter"></span></h2>
                 <p>This is my official portfolio website, where I showcase my skills in web development, photography, and video editing. Explore my projects to see how I bring creativity and technical expertise together!</p>
-                <a href="#" class="btn btn-green">Download CV <i class="bi bi-download"></i></a>
+                <a href="resume.pdf" download class="btn btn-green">Download CV <i class="bi bi-download"></i></a>
                 <br>
                 <!-- social media links -->
                 <div class="mt-4">
-                    <a href="#" class="btn btn-outline-success"><i class="bi bi-whatsapp"></i></a>
-                    <a href="#" class="btn btn-outline-primary"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="btn btn-outline-danger"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="btn btn-outline-primary"><i class="bi bi-linkedin"></i></a>
-                    <a href="#" class="btn btn-outline-secondary"><i class="bi bi-github"></i></a>
+                    <a href="https://wa.me/963962213900" target="_blank" class="btn btn-outline-success"><i class="bi bi-whatsapp"></i></a>
+                    <a href="https://facebook.com/penig.hekimian" target="_blank" class="btn btn-outline-primary"><i class="bi bi-facebook"></i></a>
+                    <a href="https://instagram.com/penighekimian" target="_blank" class="btn btn-outline-danger"><i class="bi bi-instagram"></i></a>
+                    <a href="https://linkedin.com/in/beniamin-hekimian-94950630a" target="_blank" class="btn btn-outline-primary"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/beniamin-hekimian" target="_blank" class="btn btn-outline-secondary"><i class="bi bi-github"></i></a>
                 </div>
             </div>
             <div class="col-12 col-lg-6 p-5 text-center" data-aos="zoom-in">
-                <img src="images/home/home.png" class="img-fluid home-image" alt="Beniamin Hekimian">
+                <img src="images/home/home.webp" class="img-fluid home-image" alt="Beniamin Hekimian">
             </div>
         </div>
     </section>
@@ -81,7 +72,7 @@
     <section class="container p-4 rounded-5 bg-body-tertiary" id="about" data-aos="fade-up">
         <div class="row about-content align-items-center">
             <div class="col-12 col-lg-4 text-center about-image">
-                <img src="images/home/about.png" class="img-fluid rounded-5 w-75" alt="Beniamin Hekimian">
+                <img src="images/home/about.webp" class="img-fluid rounded-5 w-75" alt="Beniamin Hekimian">
             </div>
             <div class="col-12 col-lg-8 about-text">
                 <h2 class="my-2">About Me</h2>
@@ -93,7 +84,7 @@
 
     <!-- services section -->
     <section class="container py-5" id="services">
-        <div class="row text-center services-title" data-aos="zoom-in">
+        <div class="row text-center" data-aos="zoom-in">
             <div class="col-12">
                 <h2 class="m-2 green">Our Services</h2>
             </div>
@@ -106,7 +97,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Web Development</h3>
                         <p class="card-text m-3">Crafting visually appealing websites and effectively transforming ideas into stunning realities. I deliver responsive, optimized solutions with the latest web development expertise.</p>
-                        <a href="html/portfolio.html" class="btn btn-green m-3">View Portfolio</a>
+                        <a href="html/projects.html" class="btn btn-green m-3">View Portfolio</a>
                     </div>
                 </div>
             </div>
@@ -117,7 +108,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Photography</h3>
                         <p class="card-text m-3">From portraits to events, I offer professional photography services capturing the essence of your story. With an artistic eye and attention to detail, I create stunning visuals.</p>
-                        <a href="html/portfolio.html" class="btn btn-green m-3">View Portfolio</a>
+                        <a href="html/projects.html" class="btn btn-green m-3">View Portfolio</a>
                     </div>
                 </div>
             </div>
@@ -128,7 +119,7 @@
                     <div class="card-body">
                         <h3 class="card-title">Video Editing</h3>
                         <p class="card-text m-3">Elevate your content with professional video editing that transforms raw footage into captivating narratives. I engage your audience and convey your message with clarity and impact.</p>
-                        <a href="html/portfolio.html" class="btn btn-green m-3">View Portfolio</a>
+                        <a href="html/projects.html" class="btn btn-green m-3">View Portfolio</a>
                     </div>
                 </div>
             </div>
@@ -143,32 +134,16 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 my-4 wrapper">
-                <div class="skill" id="skill-1">
-                    <img src="images/icons/html.png" class="img-fluid">
-                </div>
-                <div class="skill" id="skill-2">
-                    <img src="images/icons/css.png" class="img-fluid">
-                </div>
-                <div class="skill" id="skill-3">
-                    <img src="images/icons/javascript.png" class="img-fluid">
-                </div>
-                <div class="skill" id="skill-4">
-                    <img src="images/icons/bootstrap.png" class="img-fluid">
-                </div>
-                <div class="skill" id="skill-5">
-                    <img src="images/icons/react.png" class="img-fluid">
-                </div>
-                <div class="skill" id="skill-6">
-                    <img src="images/icons/nodejs.png" class="img-fluid">
-                </div>
-                <div class="skill" id="skill-7">
-                    <img src="images/icons/git.png" class="img-fluid">
-                </div>
-                <div class="skill" id="skill-8">
-                    <img src="images/icons/github.png" class="img-fluid">
-                </div>
-            </div>
+            <ul class="col-12 my-4 wrapper">
+                <li class="skill" id="skill-1"><img src="images/skills/html.png" class="img-fluid"></li>
+                <li class="skill" id="skill-2"><img src="images/skills/css.png" class="img-fluid"></li>
+                <li class="skill" id="skill-3"><img src="images/skills/javascript.png" class="img-fluid"></li>
+                <li class="skill" id="skill-4"><img src="images/skills/bootstrap.png" class="img-fluid"></li>
+                <li class="skill" id="skill-5"><img src="images/skills/react.png" class="img-fluid"></li>
+                <li class="skill" id="skill-6"><img src="images/skills/nodejs.png" class="img-fluid"></li>
+                <li class="skill" id="skill-7"><img src="images/skills/git.png" class="img-fluid"></li>
+                <li class="skill" id="skill-8"><img src="images/skills/github.png" class="img-fluid"></li>
+            </ul>
         </div>
     </section>
 
@@ -180,35 +155,36 @@
                 <p>Whether you need a professional website, beautiful photography, or dynamic video editing, I'm just a message away!</p>
             </div>
         </div>
-        <form>
-            <div class="row">    
-                <div class="col-12 col-lg-6">
-                    <div class="form-floating mb-3">
-                        <input type="text" id="username" name="username" class="form-control" placeholder="your full name goes here" required>
-                        <label for="username">Name</label>
-                    </div>
+        <form action="https://api.web3forms.com/submit" method="POST" class="row">
+            <input type="hidden" name="access_key" value="b8482f24-5eca-486b-beef-bea698522010">
+            <div class="col-12 col-lg-6">
+                <div class="form-floating mb-3">
+                    <input type="text" id="username" name="name" class="form-control" placeholder="your full name goes here" required>
+                    <label for="username">Name</label>
                 </div>
-                <div class="col-12 col-lg-6">
-                    <div class="form-floating mb-3">
-                        <input type="email" id="email" name="email" class="form-control" placeholder="your email address goes here" required>
-                        <label for="email">Email</label>
-                    </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="form-floating mb-3">
+                    <input type="email" id="email" name="email" class="form-control" placeholder="your email address goes here" required>
+                    <label for="email">Email</label>
                 </div>
-                <div class="col-12">
-                    <div class="form-floating mb-3">
-                        <input type="text" id="subject" name="subject" class="form-control" placeholder="your mail subject goes here" required>
-                        <label for="subject">Subject</label>
-                    </div>
+            </div>
+            <div class="col-12">
+                <div class="form-floating mb-3">
+                    <input type="text" id="subject" name="subject" class="form-control" placeholder="your mail subject goes here" required>
+                    <label for="subject">Subject</label>
                 </div>
-                <div class="col-12">
-                    <div class="form-floating mb-3">
-                        <textarea id="message" name="message" class="form-control" placeholder="your message goes here" style="height: 12rem" required></textarea>
-                        <label for="message">Message</label>
-                    </div>
+            </div>
+            <div class="col-12">
+                <div class="form-floating mb-3">
+                    <textarea id="message" name="message" class="form-control" placeholder="your message goes here" style="height: 12rem" required></textarea>
+                    <label for="message">Message</label>
                 </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-green mb-3">Submit now <i class="bi bi-arrow-right"></i></button>
-                </div>
+            </div>
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <div class="col-12">
+                <button type="submit" class="btn btn-green mb-3">Submit now <i class="bi bi-arrow-right"></i></button>
             </div>
         </form>
     </section>
@@ -218,11 +194,11 @@
         <!-- social media links -->
         <div class="row">
             <div class="col-12 p-1">
-                <a href="#" class="m-2"><i class="bi bi-whatsapp footer-link-icon"></i></a>
-                <a href="#" class="m-2"><i class="bi bi-facebook footer-link-icon"></i></a>
-                <a href="#" class="m-2"><i class="bi bi-instagram footer-link-icon"></i></a>
-                <a href="#" class="m-2"><i class="bi bi-linkedin footer-link-icon"></i></a>
-                <a href="#" class="m-2"><i class="bi bi-github footer-link-icon"></i></a>
+                <a href="https://wa.me/963962213900" target="_blank" class="m-2"><i class="bi bi-whatsapp footer-link-icon"></i></a>
+                <a href="https://facebook.com/penig.hekimian" target="_blank" class="m-2"><i class="bi bi-facebook footer-link-icon"></i></a>
+                <a href="https://instagram.com/penighekimian" target="_blank" class="m-2"><i class="bi bi-instagram footer-link-icon"></i></a>
+                <a href="https://linkedin.com/in/beniamin-hekimian-94950630a" target="_blank" class="m-2"><i class="bi bi-linkedin footer-link-icon"></i></a>
+                <a href="https://github.com/beniamin-hekimian" target="_blank" class="m-2"><i class="bi bi-github footer-link-icon"></i></a>
             </div>
         </div>
         <!-- website navigation links -->
@@ -231,14 +207,14 @@
                 <a href="index.html" class="m-2 footer-link-text">Home</a>
                 <a href="html/about.html" class="m-2 footer-link-text">About</a>
                 <a href="html/skills.html" class="m-2 footer-link-text">Skills</a>
-                <a href="html/portfolio.html" class="m-2 footer-link-text">Portfolio</a>
+                <a href="html/projects.html" class="m-2 footer-link-text">Projects</a>
                 <a href="html/contact.html" class="m-2 footer-link-text">Contact Us</a>
             </div>
         </div>
         <!-- copyright -->
         <div class="row">
             <div class="col-12 p-1">
-                <small>© 2024 Beniamin Hekimian. All rights reserved.</small>
+                <small>© 2025 Beniamin Hekimian. All rights reserved.</small>
             </div>
         </div>
     </footer>

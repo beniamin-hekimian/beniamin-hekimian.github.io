@@ -1,4 +1,31 @@
-/* infinite-scroll.css */
+/* type-writer styling */
+.typewriter{
+    position: relative;
+}
+
+.typewriter:before{
+    content:"";
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    background-color: white;
+    border-left: 4px solid #00cd78;
+    animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+/* infinite-scroll styling */
 .wrapper {
 width: 90%;
 max-width: 1600px;
@@ -14,6 +41,7 @@ mask-image: linear-gradient(
     rgba(0,0,0,0)
 );
 }
+
 .skill {
     width: 100px; /* this should be px (can't be %) */
     height: 100%;
@@ -29,12 +57,13 @@ mask-image: linear-gradient(
     justify-content: center;
     align-items: center;
 }
+
 @keyframes scrollleft {
-    /* left: <-item width> */
     to{
-        left: -100px;
+        left: -100px; /* item width */
     }
 }
+
 /* negative delay values defines the starting position of the element */
 /* duration * delay * -1 */
 #skill-1{
@@ -60,30 +89,4 @@ mask-image: linear-gradient(
 }
 #skill-8{
     animation-delay: calc(30s / 8 * (8 - 8) * -1);
-}
-
-
-
-/* type-writer.css */
-.typewriter{
-    position: relative;
-}
-.typewriter:before{
-    content:"";
-    position:absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width:100%;
-    background-color: white;
-    border-left: 4px solid #00cd78;
-    animation: animate 4s steps(12) infinite;
-}
-@keyframes animate{
-    40%, 60%{
-        left: calc(100% + 4px);
-    }
-    100%{
-        left: 0%;
-    }
 }

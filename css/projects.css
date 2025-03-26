@@ -1,0 +1,53 @@
+/* cards badges */
+:root {
+  /* ✅ Tailwind (Official Cyan) */
+  --bs-tailwind: #06b6d4;
+  --bs-tailwind-rgb: 6, 182, 212;
+  --bs-tailwind-subtle: rgba(var(--bs-tailwind-rgb), 0.15);
+  --bs-tailwind-emphasis: #0a768f; /* Darker cyan */
+
+  /* ✅ Bootstrap (Official Purple) */
+  --bs-bootstrap: #7952b3;
+  --bs-bootstrap-rgb: 121, 82, 179;
+  --bs-bootstrap-subtle: rgba(var(--bs-bootstrap-rgb), 0.15);
+  --bs-bootstrap-emphasis: #5a3e99;
+}
+
+/* 🎨 Tailwind */
+.bg-tailwind-subtle {
+  background-color: var(--bs-tailwind-subtle) !important;
+}
+.border-tailwind-subtle {
+  border-color: var(--bs-tailwind-subtle) !important;
+}
+.text-tailwind-emphasis {
+  color: var(--bs-tailwind-emphasis) !important;
+}
+
+/* 🎨 Bootstrap */
+.bg-bootstrap-subtle {
+  background-color: var(--bs-bootstrap-subtle) !important;
+}
+.border-bootstrap-subtle {
+  border-color: var(--bs-bootstrap-subtle) !important;
+}
+.text-bootstrap-emphasis {
+  color: var(--bs-bootstrap-emphasis) !important;
+}
+
+
+/* animations */
+.slide-top {
+	animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-top {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
