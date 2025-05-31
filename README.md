@@ -1,61 +1,36 @@
-# Personal Portfolio Website 👨‍💻
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-A front-end project to showcase my skills, projects, and achievements. This website demonstrates my journey as a **Front-End Developer** and features my work, including projects like **Little Lemon** and **Code-Quotes Generator**.
+## Getting Started
 
-## Live Preview 🌍
+First, run the development server:
 
-🔗 [Live Demo](https://beniamin-hekimian.github.io)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Features ✅
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-1. Showcase of my front-end development skills and projects.
-2. **Typewriter effect** on the homepage title using vanilla JavaScript.
-3. **Infinity scroll** effect in the skills section for programming language icons.
-4. Responsive design for mobile & desktop.
-5. Button to download my **resume** directly from the homepage.
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-## Mockup 📸
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-![screenshot](./images/mockup.png)
+## Learn More
 
-## What I Learned 📚
+To learn more about Next.js, take a look at the following resources:
 
-1️⃣ **HTML & CSS:**
-   - Built a fully responsive website using `Bootstrap`.
-   - Applied custom styles to enhance the design and user experience.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-2️⃣ **JavaScript for Interactive Effects:**
-   - Implemented a `typewriter` effect for the homepage title using vanilla JavaScript.
-   - Created an `infinity scroll` effect for the skills section with plain JavaScript.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-3️⃣ **Animations with AOS:**
-   - Added smooth, engaging animations on scroll using the `Animate on Scroll (AOS)` library.
+## Deploy on Vercel
 
-4️⃣ **Web Forms Integration:**
-   - Integrated `Web3Forms API` to connect the contact form to my email address for direct communication.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-5️⃣ **Responsive Design:**
-   - Utilized `Bootstrap's grid system` to create a mobile-first layout.
-   - Incorporated media queries to fine-tune the responsiveness across devices.
-
-6️⃣ **Version Control & Deployment:**
-   - Used `Git & GitHub` for version control.
-   - Deployed the project on `GitHub Pages` for hosting.
-
-7️⃣ **User Experience:**
-   - Focused on building an intuitive user interface and smooth navigation to enhance overall usability.
-
-## Technologies Used 🛠️
-
-- ✅ Semantic HTML5 Tags
-- 🎨 Bootstrap
-- ⚡ Vanilla JavaScript
-- 🌟 Animate on Scroll (AOS) Library
-- 📧 Web3Forms API
-- 🚀 GitHub Pages
-
-## Conclusion 🎉
-
-Developed by **Beniamin Hekimian**.
-
-Feel free to reach out for feedback or inquiries! ✉️
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
