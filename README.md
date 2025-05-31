@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Portfolio Website 👨‍💻
 
-## Getting Started
+A full-stack portfolio website built using **Next.js**, **Tailwind CSS**, and **Shadcn/ui**. This project showcases my abilities as a developer with a focus on clean UI, accessibility, and responsiveness.
 
-First, run the development server:
+## Live Preview 🌍
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 [Live Demo](https://beniamin-hekimian.github.io)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features ✅
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Interactive showcase of my development skills and background.
+2. Button to download my **resume** directly from the homepage.
+3. Integrated **social links** to GitHub, LinkedIn, and more.
+4. Responsive **contact form** for direct communication.
+5. **Dark theme** toggle powered by `next-themes`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Mockup 📸
 
-## Learn More
+![screenshot](./public/mockup.png)
 
-To learn more about Next.js, take a look at the following resources:
+## What I Learned 📚
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1️⃣ **Next.js Framework:**
+   - Built a performant and SEO-friendly website using the App Router.
+   - Implemented layout management and dynamic metadata.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2️⃣ **Tailwind CSS:**
+   - Designed a fully responsive layout with utility-first classes.
+   - Created consistent styling without writing custom CSS.
 
-## Deploy on Vercel
+3️⃣ **Shadcn/ui:**
+   - Utilized accessible and customizable components.
+   - Learned to integrate third-party UI libraries into a modern React/Next.js workflow.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4️⃣ **Dark Mode Support:**
+   - Implemented theme switching using `next-themes`.
+   - Preserved user preference across sessions.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5️⃣ **Accessibility & UX:**
+   - Focused on keyboard navigation and ARIA-friendly components.
+   - Improved user experience with smooth interactions and visual consistency.
+
+## Technologies Used 🛠️
+
+- 🎯 Next.js (App Router)
+- 🎨 Tailwind CSS
+- 🧩 Shadcn/ui
+- 🌙 next-themes
+- 💡 web3forms
+- 🚀 GitHub Pages
+
+## Conclusion 🎉
+
+Developed by **Beniamin Hekimian**.
+
+Feel free to reach out! ✉️
