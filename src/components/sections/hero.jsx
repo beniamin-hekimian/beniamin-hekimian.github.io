@@ -1,9 +1,10 @@
+import Link from "next/link";
 import Image from "next/image";
 import { Download } from "lucide-react";
 import { BsStars } from "react-icons/bs";
 import { Button } from "@/components/ui/button";
 import Typewriter from "@/components/typewriter";
-import SocialLinks from "@/components/social-links";
+import { socialLinks } from "@/data/social-links";
 
 export default function Hero() {
   return (
@@ -14,7 +15,15 @@ export default function Hero() {
           <h2 className="text-2xl md:text-3xl font-semibold mt-2">I&apos;m a <Typewriter /></h2>
           <p className="mt-4">This is my official portfolio website, where I showcase my skills in web development, photography, and video editing. Explore my projects to see how I bring creativity and technical expertise together!</p>
           <Button className="my-4 hover:cursor-pointer">Download CV<Download /></Button>
-          <SocialLinks />
+          <ul className="flex gap-2">
+            {socialLinks.map((link, index) => {
+              const Icon = link.icon;
+              return(
+              <Link key={index} href={link.href} target="_blank" className={`hover:bg-secondary p-2 rounded-md ${link.color}`}>
+                <Icon />
+              </Link>
+            )})}
+          </ul>
         </div>
         <div className="flex justify-center lg:justify-end">
           <Image src="/hero.webp" alt="hero image" width="400" height="400" />
