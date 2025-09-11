@@ -6,6 +6,13 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
+    title: "Property Pulse",
+    image: "/property-pulse.webp",
+    description: "Full-stack rental property web app with authentication, listings, and messaging features.",
+    tech: ["Next.js", "MongoDB", "Tailwind"],
+    link: "https://property-pulse-by-beniamin.vercel.app/"
+  },
+  {
     title: "Paradise Nursery",
     image: "/paradise-nursery.webp",
     description: "Interactive plant store e-commerce website with a real-time shopping cart feature.",
@@ -19,13 +26,6 @@ const projects = [
     tech: ["React", "HTML", "CSS"],
     link: "https://little-lemon-by-beniamin.vercel.app/"
   },
-  {
-    title: "Code Quotes",
-    image: "/code-quotes.webp",
-    description: "Motivational quotes in the JavaScript code format, desktop & mobile wallpapers generator.",
-    tech: ["React", "Tailwind", "JavaScript"],
-    link: "https://code-quotes.vercel.app"
-  }
 ];
 
 export default function Projects() {
